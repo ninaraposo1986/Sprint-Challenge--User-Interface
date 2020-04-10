@@ -253,3 +253,37 @@ button {
 .workTogetherText {
     margin: 10%;
 }
+
+@media(max-width: 800px) {
+    
+    .container {
+        width: 100%;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #topLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+    }
+    
+    #topLinks a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.9rem;
+        border: 1px solid black;
+        width: 100%;
+        height: 30px;
+    }
+    
+}
+
+@media(max-width: 800px) {
+    
+}
+
