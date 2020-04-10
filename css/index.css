@@ -234,5 +234,5 @@ button {
 
 .gridItem {
 width: 40%;
-border-bottom: 1px solid dashed;
+border-bottom: 1px dashed black;
 }
