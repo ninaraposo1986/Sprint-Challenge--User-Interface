@@ -154,12 +154,20 @@ footer nav a {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-end;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
     }
 
-.topLinks {
+#topLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
 
+#topLinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
 }
