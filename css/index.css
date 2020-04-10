@@ -150,3 +150,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+
+.topLinks {
+
+}
