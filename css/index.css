@@ -222,6 +222,11 @@ header {
 
 /* THE ABOUT PAGE'S SPECIFIC STYLINGS */
 
+.topAbout {
+    margin: 3%;
+    border-bottom: 1px dashed black;
+}
+
 button {
     width: 100px;
     height: 30px;
@@ -243,4 +248,8 @@ button {
     width: 45%;
     border-bottom: 1px dashed black;
     margin-bottom: 20px;
+}
+
+.workTogetherText {
+    margin: 10%;
 }
