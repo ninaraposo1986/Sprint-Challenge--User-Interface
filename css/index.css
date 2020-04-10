@@ -223,16 +223,24 @@ header {
 /* THE ABOUT PAGE'S SPECIFIC STYLINGS */
 
 button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
 .gridItem {
-width: 40%;
-border-bottom: 1px dashed black;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
 }
