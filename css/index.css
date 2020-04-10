@@ -222,4 +222,17 @@ header {
 
 /* THE ABOUT PAGE'S SPECIFIC STYLINGS */
 
+button {
 
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gridItem {
+width: 40%;
+border-bottom: 1px solid dashed;
+}
